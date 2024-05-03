@@ -5,7 +5,7 @@ export default function User() {
   const [name,setName]=useState()
   const submit=async()=>{
     try {
-      const response = await fetch("http://localhost:5000/create/user", {
+      const response = await fetch("http://52.66.252.132:9000/create/user", {
         method: "POST",
         headers:{
             "Content-Type": "application/json",
